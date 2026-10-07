@@ -4,9 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Add(5, 3));
+            Console.WriteLine(Multiply(0, 9));
         }
 
         static public int Add(int x, int y) { return x + y; }
+        static public int Multiply(int x, int y) { return x * y; }
     }
 }
